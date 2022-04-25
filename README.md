@@ -50,3 +50,9 @@ X-Instance-Identity: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiSUkHynq3HOS0LS
 Content-Length: 29265
 Server: Jetty(9.4.45.v20220203)
 ```
+
+## Lecture d'un Job Jenkins
+
+```
+curl --silent -u admin:11c377cc838aaa807d5d458c8c361e506c http://localhost:8080/job/demo/26/api/json
+```
