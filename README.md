@@ -56,3 +56,22 @@ Server: Jetty(9.4.45.v20220203)
 ```
 curl --silent -u admin:11c377cc838aaa807d5d458c8c361e506c http://localhost:8080/job/demo/26/api/json
 ```
+
+## Check statuts
+
+```
+curl -v telnet://127.0.0.1:8080
+curl -v telnet://127.0.0.1:22
+curl -v telnet://127.0.0.1:80
+curl -v 127.0.0.1:22
+curl -v 127.0.0.1:80
+curl -v 127.0.0.1:8080
+curl -s 127.0.0.1:8080
+curl -v 127.0.0.1:8080
+curl -v 127.0.0.1:80
+curl -v 127.0.0.1:29
+curl -v 127.0.0.1:8080
+curl -v 127.0.0.1:8888
+curl -v 127.0.0.1:8080
+curl -v --sslv3 127.0.0.1:8080
+```
